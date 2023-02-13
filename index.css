@@ -1,40 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url(schooli.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+   
 }
     /* header section */
 header{
     width: 100vw;
     
+    
+    
 }
 .nav{
    display: flex;
+   
  
 }
 .leftnav{
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 10px;
+margin-left: 15px;
 
+}
+.rightnav{
+    margin-top: 20px;
+    margin-left: 40px;
 }
 .nav ul{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     
 }
 .nav ul a{
     text-decoration: none;
     font-style: italic;
 }
-.nav ul a:hover{
+ .nav ul a:hover{
     
     color: orange;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
 
+} 
+.nav ul li{
+    padding: 4px;
+}
+
+.nav ul li:hover{
+    background-color: white;
+    border-radius: 15px;
+    
 }
 .logo img{
     height: 30px;
     
 }
+
