@@ -1,0 +1,40 @@
+body{
+    background-image: url(schooli.jpg);
+    background-size: cover;
+}
+    /* header section */
+header{
+    width: 100vw;
+    
+}
+.nav{
+   display: flex;
+ 
+}
+.leftnav{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.nav ul a{
+    text-decoration: none;
+    font-style: italic;
+}
+.nav ul a:hover{
+    
+    color: orange;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+
+}
+.logo img{
+    height: 30px;
+    
+}
