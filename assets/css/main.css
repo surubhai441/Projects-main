@@ -1,0 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#home{
+    background: url(../img/schooli.jpg) no-repeat;
+    background-size: cover;
+    z-index:-1;
+}

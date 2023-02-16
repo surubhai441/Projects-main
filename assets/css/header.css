@@ -1,22 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
+header{
+    position: fixed;
 }
-#home {
-    background: url(schooli.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-display: flex;
-width: 100vw;
-height: 100vw;
-position: absolute;
-top:0;
-left: 0;
-z-index: -1;
-}
- 
+
 .navbar{
     display: flex;
+    width: 100vw;
 }
 .leftnav{
     width: 40%;
@@ -24,6 +12,8 @@ z-index: -1;
 }
 .rightnav{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 60%;
 }
 .rightnav ul{
@@ -31,12 +21,16 @@ z-index: -1;
     gap: 80px;
     list-style: none;
     margin: 10px;
+    margin-right: 100px;
     
 }
 .rightnav ul li a{
     text-decoration: none;
     font-family: cursive;
     font-size: medium;
+    padding: 3px 7px;
+    transition: 0.3s ease-in-out;
+    font-family: Dhanjay;
 }
 .rightnav ul li{
     padding: 4px;
