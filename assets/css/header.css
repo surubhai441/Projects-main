@@ -1,5 +1,9 @@
 header{
     position: fixed;
+
+}
+header:hover{
+    background-color: rgba(32, 41, 26, 0.268);
 }
 
 .navbar{
@@ -28,16 +32,17 @@ header{
     text-decoration: none;
     font-family: cursive;
     font-size: medium;
-    padding: 3px 7px;
+    padding: 5px 10px;
     transition: 0.3s ease-in-out;
-    font-family: Dhanjay;
+    font-family: Sanskar;
 }
 .rightnav ul li{
     padding: 4px;
+
 }
 .rightnav ul li a:hover{
-    color:orange;
-    background-color: aliceblue;
+    border-bottom: 2px solid black;
+    color:rgb(255, 255, 255);
     border-radius: 10px;
 
 }

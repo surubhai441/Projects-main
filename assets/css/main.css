@@ -3,13 +3,75 @@ body{
 }
 .container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
 }
+
 #home{
     background: url(../img/schooli.jpg) no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: flex-start;
     z-index:-1;
 }
+.text
+{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.maintext{
+    font-size: 100px;
+    font-weight: 600;
+    font-family: Sanskar;
+    color: #f6ecec;
+}
+.supporting-text{
+    margin-left: 150px;
+    font-size: 50px;
+    font-family: Sanskar;
+    color: #f6f6ff;
+
+}
+#about{
+    background: url(../img/about.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+
+}
+#imgbox{
+    background: url(../img/schoole.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    z-index:-1;
+}
+.img-boxwrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.maintextwrap{
+    font-size: 70px;
+    font-weight: 100;
+    font-family: Sanskar;
+    color: #fff;
+
+}
+.aboutsection{
+    margin-left: 100px;
+    margin-bottom: 300px;
+}
+.p-text{
+    font-family: Sanskar;
+    color: #f6ecec;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
